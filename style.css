@@ -1,0 +1,237 @@
+body {
+  overflow-y: scroll;
+  margin: 0;
+}
+
+.navbar {
+  background-color:#0059b3;
+  top: 0;
+  margin:0;
+  padding:3px 0;
+  width: 100%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+}
+
+.sidenav {
+  display: inline-block;
+  margin: 0 ;
+  padding:0 10px;
+  vertical-align: middle;
+}
+
+.sidenav-menu {
+  display: inline-block;
+  margin: 0 ;
+  padding:0 10px;
+  vertical-align: middle;
+}
+
+.elem {
+  display: inline-block;
+}
+
+.icon {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.ang-image {
+  width: 155px;
+  vertical-align: middle;
+}
+
+.elem a {
+  display: inline-block;
+  padding: 15px 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.elem a:hover {
+  color: #cccccc;
+  transition: 0.2s;
+}
+
+.search {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  right: 0 ;
+  padding: 20px;
+}
+
+.search input {
+  border:none;
+  outline: none;
+  border-radius: 180px;
+  width: 180px;
+  height: 32px;
+}
+
+.search input[placeholder] {
+  padding-left: 20px;
+}
+
+.search input:focus {
+  width: 250px;
+  transition: 0.8s;
+}
+
+.vertical-menu {
+  height: 100%;
+  margin-top: -3%;
+  position: fixed;
+  width: 16%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vertical-nav {
+  display: block;
+  border-bottom: 1px dotted #666666;
+  padding-top: 20px;
+}
+
+.vertical-elem {
+  display: block;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.vertical-elem a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.vertical-elem :hover {
+  background-color: #cccccc;
+  transition: 0.5s;
+}
+
+.vertical-section {
+  display: block;
+  padding-left: 60px;
+}
+
+.vertical-section select {
+  border:none;
+  width: 60%;
+  height: 25%;
+  outline: none;
+  background-color: white;
+  padding-left: 20px;
+  color: #001433;
+  text-decoration: none;
+}
+
+#esim {
+  margin-left: 360px;
+  margin-top: 120px;
+}
+
+.card {
+  display: inline-block;
+}
+
+.column {
+  margin-top: 20px;
+  display: block;
+}
+
+.header-text {
+  font-size: 25px;
+}
+
+.column h1 {
+  font-size: 22px;
+  color: #737373;
+}
+
+div.card {
+  width: 22%;
+  text-align: center;
+  border: 1px solid #cccccc;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+div.header {
+  padding: 10px;
+}
+
+div.container {
+  padding: 4px 20px 4px 4px;
+  text-align: end;
+  border-top: 1px solid #cccccc;
+  color: #a6a6a6;
+  font-size: 14px;
+}
+
+div.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-ref {
+  text-decoration: none;
+  color: #0077b3;
+}
+
+footer {
+  margin-left: 500px;
+  margin-top: 120px;
+}
+
+footer nav {
+  display: inline-block;
+}
+
+.footer-bar ul {
+  list-style: none;
+}
+
+.footer-bar ul li a {
+  text-decoration: none;
+}
+
+.footer-active {
+  text-transform: uppercase;
+}
+
+.footer-bar-two {
+  margin-top: 800px;
+}
+
+@media only screen and (max-width: 990px) {
+  .sidenav-menu {
+    display: none;
+  }
+
+  #esim {
+    margin-left: 120px;
+    margin-top: 120px;
+  }
+
+  .card {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .vertical-menu {
+    display: none;
+  }
+
+  #esim {
+    margin-left:120px;
+    margin-top: 120px;
+  }
+
+  .card {
+    display: block;
+  }
+
+}
